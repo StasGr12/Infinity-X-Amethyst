@@ -20,7 +20,7 @@ Before installing please remember that:
     - Hold power button and volume down until the screen shows FASTBOOT
     - Plug your phone to your PC via USB and run fastboot devices in the CMD
       - If it shows a device your good to go
-    - Flash the boot.img
+    - Flash the recovery.img
       - Run this command in CMD:
           ```bash
           fastboot flash recovery recovery.img
