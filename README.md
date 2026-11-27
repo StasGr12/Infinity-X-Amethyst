@@ -17,8 +17,8 @@ Before installing please remember that:
    - [ADB & FASTBOOT](https://developer.android.com/tools/releases/platform-tools?hl=en)
    - [Google USB Drivers](https://developer.android.com/studio/run/win-usb?hl=en)
  2. Reboot the PC
- 3. Download the ROM ZIP and boot.img from [releases](https://github.com/StasGr12/Infinity-X-Fleur/releases) and move them to the directory with ADB & FASTBOOT
- 4. Flash the boot.img and reboot to recovery:
+ 3. Download the ROM ZIP and boot.img from [releases](https://sourceforge.net/projects/stasgr12-builds/files/amethyst/17/Project%20Infinity%20X/) and move them to the directory with ADB & FASTBOOT
+ 4. Flash the recovery.img and reboot to recovery:
     - Enter the directory with ADB & FASTBOOT from CMD using cd command
     - Hold power button and volume down until the screen shows FASTBOOT
     - Plug your phone to your PC via USB and run fastboot devices in the CMD
@@ -26,7 +26,7 @@ Before installing please remember that:
     - Flash the boot.img
       - Run this command in CMD:
           ```bash
-          fastboot flash --slot=all boot boot.img
+          fastboot flash recovery recovery.img
           ```
     - Reboot to recovery
       - Run this command in CMD:
