@@ -27,7 +27,9 @@ Before installing please remember that:
           ```
     - Reboot to recovery
       - Run this command in CMD:
-      - fastboot reboot recovery
+        ```
+        fastboot reboot recovery
+        ```
  5. Install the ROM
     - When in recovery press the Factory Reset button then press format data twice
     - Press apply update button and Apply from ADB
